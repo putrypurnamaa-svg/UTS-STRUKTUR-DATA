@@ -1,0 +1,34 @@
+# Aplikasi Text Editor Undo dan Redo
+
+## Deskripsi
+Proyek ini merupakan implementasi Undo dan Redo pada aplikasi Text Editor menggunakan struktur data Linked Stack dan Memento Pattern.
+
+## Fitur
+- Menulis dan mengubah teks
+- Undo untuk mengembalikan teks sebelumnya
+- Redo untuk mengembalikan perubahan teks
+
+## Struktur Data
+- Linked Stack
+- Memento Pattern
+
+## Pengujian
+Pengujian dilakukan untuk mengetahui:
+- Keberhasilan fitur Undo dan Redo
+- Penggunaan memori menggunakan tracemalloc
+- Waktu eksekusi menggunakan time.perf_counter()
+
+## Cara Menjalankan
+Jalankan perintah berikut pada terminal:
+
+py main.py
+
+Untuk pengujian performa:
+
+py benchmark.py
+
+## Anggota Kelompok
+1. Ketua: Implementasi Linked Stack
+2. Anggota 2: Implementasi Memento Pattern
+3. Anggota 3: Implementasi Undo dan Redo
+4. Anggota 4: Pengujian dan dokumentasi
